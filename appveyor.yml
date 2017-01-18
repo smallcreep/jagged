@@ -17,7 +17,8 @@ cache:
 branches:
   only:
     - master
+after_build:
+  - 7z a myapp.zip *\*
 artifacts:
-  - path: '**\*'
+  - path: MyApp.zip
     name: MyApp
-    type: zip
