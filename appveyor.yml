@@ -17,3 +17,6 @@ cache:
 branches:
   only:
     - master
+artifacts:
+  - path: '**\*'
+    name: MyApp
