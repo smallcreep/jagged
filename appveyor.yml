@@ -20,3 +20,4 @@ branches:
 artifacts:
   - path: '**\*'
     name: MyApp
+    type: zip
